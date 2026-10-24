@@ -1,41 +1,33 @@
-# Student Resource Directory
+# Student Resource & Notes Sharing Directory
 
-A simple beginner-friendly Python project for finding and sharing study notes and useful learning links by subject.
+I built this CLI-based Python project to solve a real problem we face as students: important study materials, lecture links, and notes getting lost in messy group chats and messenger threads. 
 
-## Features
+After finishing my Python basics course on Coursera, I wanted to build something practical that actually helps my peers and uses the core programming concepts I learned.
 
-- Search notes by subject
-- Add a new note with a title and link
-- View all available notes
-- Save added notes in a local text file
+This application written in Python designed to help university and college students share, search, and manage study materials, course links, and notes effortlessly in one place.
 
-## Requirements
 
-- Python 3
-- No external libraries required
+---
 
-## How to Run
+## What this app does
+- **Search Notes:** Search for study materials by subject name.
+- **Add Notes:** Add new notes and resource links interactively.
+- **Show All Notes:** View all available notes categorized by subject.
+- **File Storage:** Saves all newly added notes in a local `notes.txt` file so they persist every time you open the program.
 
-1. Download or clone this repository.
-2. Open the project folder in VS Code.
-3. Run:
+---
 
+## Tech Stack & Python Concepts Used
+- **Language:** Python 3
+- **Data Structures:** Nested Dictionaries (`dict`) and Lists (`list`).
+- **File Handling:** Plain text file processing (`notes.txt`) using `open()`, `write()`, `split()`, and `os.path.exists()`.
+- **Control Flow:** `while` loops, conditional `if-elif-else` statements, and functions.
+
+---
+
+## How to Run It
+
+1. Make sure **Python 3** is installed on your computer.
+2. Clone this repository:
    ```bash
-   python student_resources.py
-   ```
-
-   On some Windows systems, you may need to use `py student_resources.py`.
-
-## How It Works
-
-The project uses basic Python concepts:
-
-- Dictionaries and lists to organize resources
-- `if-else` statements and loops for the menu
-- File handling to save added notes in `notes.txt`
-
-The `notes.txt` file is created automatically when you add your first resource.
-
-## Note
-
-This is a local, beginner-level console project. Added notes are stored on the computer where the program runs; it is not an online sharing website.
+   git clone [https://github.com/kabbo8844/student-resource-directory.git](https://github.com/kabbo8844/student-resource-directory.git)
